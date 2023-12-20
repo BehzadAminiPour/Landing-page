@@ -1,0 +1,33 @@
+.footer {
+    max-width: 1120px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+    height: 8rem;
+    color: #fff;
+}
+
+.copy p{
+font-size: 1.4rem;
+}
+.designer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.designer p {
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width:800px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

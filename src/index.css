@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+  /* outline: none; */
+}
+html {
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: vazir;
+  src: url("./fonts/number/vazir.eot") format("eot");
+  src: url("./fonts/number/vazir.ttf") format("truetype"),
+    url("./fonts/number/vazir.woff") format("woff");
+}
+
+body {
+  direction: rtl;
+  font-family: "vazir";
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

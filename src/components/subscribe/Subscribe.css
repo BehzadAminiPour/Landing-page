@@ -1,0 +1,42 @@
+
+.subscribe {
+    background:url(../../assets/subscribe-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.subscribe h2 {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.subscribe form {
+    margin-bottom: 2rem;
+}
+.socials{
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+    display: flex;
+}
+.social-icon {
+    margin: 0 .7rem;
+    cursor: pointer;
+}
+.subscribe input {
+    padding: .5rem;
+    border-radius: 5px;
+    border: .1rem solid grey;
+}
+
+.subscribe button {
+    padding: .5rem;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    color: #fff;
+}

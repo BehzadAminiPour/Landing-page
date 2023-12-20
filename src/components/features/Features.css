@@ -1,0 +1,37 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem !important;
+}
+.features-title {
+  /* margin-right: 2rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.features-title h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.features hr {
+  width: 150px;
+  margin-top: 1rem;
+  height: 0.3rem;
+  background: #000;
+}
+@media screen and (min-width: 600px) {
+    .features-course {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+  }
+@media screen and (min-width: 950px) {
+  .features-course {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+}
